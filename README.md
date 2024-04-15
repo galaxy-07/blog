@@ -53,7 +53,7 @@ Change MongoDB Connection String
 
 ## Environment Variables
 
-`MONGODB_URI` - MongoDB Connection String
+`DB_URL` - MongoDB Connection String
 
 ## Documentation
 
