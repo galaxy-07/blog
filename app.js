@@ -5,7 +5,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 require('dotenv').config()
 
-mongoose.connect("mongodb+srv://9948538737s:Kx3vzpAtoBWTa9Jl@cluster0.gkeun9z.mongodb.net/");
+mongoose.connect(process.env.DB_URL); // mongodb connection url.
 const homeContent = "This is Blog Website in which you can compose new Blog Posts.";
 
 const app = express();
